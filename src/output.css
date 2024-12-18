@@ -556,6 +556,12 @@ video {
   display: none;
 }
 
+body{
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
+  font-family: Poppins, sans-serif;
+}
+
 nav{
   position: sticky;
   top: 0px;
@@ -564,6 +570,19 @@ nav{
   background-color: rgb(254 154 160 / var(--tw-bg-opacity, 1));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.card-category{
+  height: 10rem;
+  border-radius: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 248 / var(--tw-bg-opacity, 1));
+  padding: 1.75rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 
 .sticky{
@@ -602,6 +621,10 @@ nav{
 
 .ms-2{
   margin-inline-start: 0.5rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
 }
 
 .mt-5{
@@ -664,8 +687,16 @@ nav{
   justify-content: center;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .gap-2{
   gap: 0.5rem;
+}
+
+.gap-3{
+  gap: 0.75rem;
 }
 
 .gap-4{
@@ -755,6 +786,10 @@ nav{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.p-10{
+  padding: 2.5rem;
+}
+
 .p-3{
   padding: 0.75rem;
 }
@@ -791,6 +826,11 @@ nav{
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-\[6px\]{
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .pb-10{
