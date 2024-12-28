@@ -565,6 +565,7 @@ body{
 nav{
   position: sticky;
   top: 0px;
+  z-index: 50;
   width: 100%;
   --tw-bg-opacity: 1;
   background-color: rgb(254 154 160 / var(--tw-bg-opacity, 1));
@@ -585,10 +586,6 @@ nav{
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
 }
 
-.pointer-events-none{
-  pointer-events: none;
-}
-
 .absolute{
   position: absolute;
 }
@@ -604,11 +601,6 @@ nav{
 .inset-y-0{
   top: 0px;
   bottom: 0px;
-}
-
-.inset-y-8{
-  top: 2rem;
-  bottom: 2rem;
 }
 
 .bottom-0{
@@ -731,24 +723,16 @@ nav{
   margin-top: 1.25rem;
 }
 
-.mt-\[6px\]{
-  margin-top: 6px;
-}
-
-.ms-3{
-  margin-inline-start: 0.75rem;
-}
-
-.me-3{
-  margin-inline-end: 0.75rem;
+.mt-6{
+  margin-top: 1.5rem;
 }
 
 .mt-8{
   margin-top: 2rem;
 }
 
-.mt-6{
-  margin-top: 1.5rem;
+.mt-\[6px\]{
+  margin-top: 6px;
 }
 
 .flex{
@@ -775,12 +759,12 @@ nav{
   height: 6rem;
 }
 
-.h-40{
-  height: 10rem;
-}
-
 .h-32{
   height: 8rem;
+}
+
+.h-40{
+  height: 10rem;
 }
 
 .min-h-screen{
@@ -821,10 +805,6 @@ nav{
 
 .flex-col{
   flex-direction: column;
-}
-
-.items-start{
-  align-items: flex-start;
 }
 
 .items-center{
@@ -1008,11 +988,6 @@ nav{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-slate-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity, 1));
-}
-
 .fill-\[\#B8B8B8\]{
   fill: #B8B8B8;
 }
@@ -1051,10 +1026,6 @@ nav{
 
 .p-\[6px\]{
   padding: 6px;
-}
-
-.p-2{
-  padding: 0.5rem;
 }
 
 .px-10{
@@ -1152,6 +1123,10 @@ nav{
   padding-bottom: 1.25rem;
 }
 
+.pr-5{
+  padding-right: 1.25rem;
+}
+
 .pt-10{
   padding-top: 2.5rem;
 }
@@ -1160,16 +1135,12 @@ nav{
   padding-top: 5rem;
 }
 
-.pr-3{
-  padding-right: 0.75rem;
-}
-
-.pr-5{
-  padding-right: 1.25rem;
-}
-
 .text-center{
   text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
 }
 
 .font-poppins{
@@ -1265,11 +1236,6 @@ nav{
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .shadow-xl{
